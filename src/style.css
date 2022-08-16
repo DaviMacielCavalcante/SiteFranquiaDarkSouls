@@ -2,12 +2,13 @@
 
 body{
     background-color:rgb(2, 2, 2);
-    font-family: "Helvetica Neue",Helvetica,Arial;
-    font-size: 16px;
+    font-family: 'hallies';
+    font-size: 26px;
 }
 h1{
     color:white;
     text-align: center;
+    font-family: 'typewriter';
 }
 li{
     color:white;
@@ -15,12 +16,29 @@ li{
 h2{
     color:white;
     text-align: center;
+    font-family: 'typewriter';
 }
 h3{
     color:white;
     text-align: center;
+    font-family: 'typewriter';
 }
 p{
     color:white;
     text-align: justify;
+}
+img {    
+    align-self: center;
+}
+@font-face {
+    font-family: 'typewriter';
+    src: url(../fontes/JMH\ Typewriter-Black.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hallies';
+    src: url(../fontes/Hallies.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
