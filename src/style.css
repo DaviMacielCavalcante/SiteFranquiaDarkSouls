@@ -13,6 +13,18 @@ h1{
 li{
     color:white;
 }
+li > a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: blueviolet;
+}
+a {
+    text-decoration: none;
+}
 h2{
     color:white;
     text-align: center;
@@ -26,9 +38,6 @@ h3{
 p{
     color:white;
     text-align: justify;
-}
-img {    
-    align-self: center;
 }
 @font-face {
     font-family: 'typewriter';
