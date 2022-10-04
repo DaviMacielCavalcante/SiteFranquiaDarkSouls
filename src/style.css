@@ -1,14 +1,44 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'typewriter';
+    src: url(../fontes/JMH\ Typewriter-Black.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hallies';
+    src: url(../fontes/Hallies.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+main {
+    min-width: 250px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+}
+
+p{
+    color:white;
+    text-align: justify;
+}
+
 body{
     background-color:rgb(2, 2, 2);
     font-family: 'hallies';
-    font-size: 26px;
+    font-size: 35px;
 }
 h1{
     color:white;
     text-align: center;
     font-family: 'typewriter';
+    font-size: 2.5em;
 }
 li{
     color:white;
@@ -35,19 +65,4 @@ h3{
     text-align: center;
     font-family: 'typewriter';
 }
-p{
-    color:white;
-    text-align: justify;
-}
-@font-face {
-    font-family: 'typewriter';
-    src: url(../fontes/JMH\ Typewriter-Black.otf) format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'hallies';
-    src: url(../fontes/Hallies.otf) format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
+
